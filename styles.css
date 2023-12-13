@@ -68,7 +68,7 @@ footer {
     width: 100%;
 }
 footer p:hover {
-        animation: rainbow 0.8s linear;
+        animation: rainbow 2.5s linear;
 		animation-iteration-count: infinite;
 }
 
