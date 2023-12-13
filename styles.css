@@ -8,6 +8,7 @@ body, h1, h2, p, ul {
 /* Apply a basic style to the body */
 body {
     font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+	font-weight:lighter;
     line-height: 1.6;
     background-color:black;
 }
