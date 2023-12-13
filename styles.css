@@ -12,7 +12,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -20,7 +20,7 @@ header {
 
 /* Style the navigation menu */
 nav {
-    background-color: #444;
+    background-color: #000;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ section {
 
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     text-align: center;
     padding: 1em 0;
