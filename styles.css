@@ -87,6 +87,11 @@ footer {
 footer p {
 	color:#fff;
     cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+footer p:not(:hover) {
+    color: #fff; /* Match the end state (white) */
 }
 
 footer p:hover {
