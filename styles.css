@@ -84,14 +84,16 @@ footer {
     width: 100%;
     
 }
-footer p:hover {
-        animation: rainbow 2.8s linear;
-		animation-iteration-count: infinite;
-	cursor: pointer; 
-}
+
 footer p {
-	color: #fff;
-    transition: color 0.3s ease; 
+    animation: rainbow 2.5s linear infinite;
+    cursor: pointer;
+    animation-play-state: paused; /* Start with animation paused */
+    transition: animation-play-state 0.3s ease; /* Transition the animation-play-state */
+}
+
+footer p:hover {
+    animation-play-state: running; /* Start or continue the animation on hover */
 }
 
 @keyframes rainbow{
