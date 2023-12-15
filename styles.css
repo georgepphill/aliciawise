@@ -88,7 +88,9 @@ footer p:hover {
         animation: rainbow 2.5s linear;
 		animation-iteration-count: infinite;
 	cursor: pointer; 
-	transition: all 0.5s ease-out;
+}
+footer p {
+    transition: all 0.3s ease; /* Add a transition to all properties with a 0.3s duration and ease timing function */
 }
 
 @keyframes rainbow{
