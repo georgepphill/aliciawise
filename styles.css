@@ -87,7 +87,7 @@ footer {
 footer p {
 	color:#fff;
     cursor: pointer;
-	transition: color 0.3s ease;
+	transition: color 2.5s ease;
 }
 
 footer p:not(:hover) {
