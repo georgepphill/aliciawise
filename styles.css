@@ -90,7 +90,8 @@ footer p:hover {
 	cursor: pointer; 
 }
 footer p {
-    transition: all 0.3s ease; /* Add a transition to all properties with a 0.3s duration and ease timing function */
+	color: #fff
+    transition: color 0.3s ease; 
 }
 
 @keyframes rainbow{
