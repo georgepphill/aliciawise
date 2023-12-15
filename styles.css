@@ -86,11 +86,11 @@ footer {
 }
 
 footer p {
+	color:#fff;
     animation: rainbow 2.5s linear infinite;
     cursor: pointer;
-    animation-play-state: paused; /* Start with animation paused */
     transition: animation-play-state 0.3s ease; /* Transition the animation-play-state */
-	color:#fff;
+
 }
 
 footer p:hover {
