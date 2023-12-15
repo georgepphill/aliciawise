@@ -23,7 +23,7 @@ body, h1, h2, p, ul {
 
 /* Apply a basic style to the body */
 body {
-    font-family:Basteleure-bold; 
+    font-family:Basteleure-moonlight; 
     line-height: 1.6;
     background-color:black;
 }
@@ -88,6 +88,7 @@ footer p:hover {
         animation: rainbow 2.5s linear;
 		animation-iteration-count: infinite;
 	cursor: pointer; 
+	transition: all 0.5s ease-out;
 }
 
 @keyframes rainbow{
