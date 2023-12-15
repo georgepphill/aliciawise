@@ -85,7 +85,7 @@ footer {
     
 }
 footer p:hover {
-        animation: rainbow 2.5s linear;
+        animation: rainbow 2.8s linear;
 		animation-iteration-count: infinite;
 	cursor: pointer; 
 }
